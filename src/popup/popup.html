@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Spoilshade — Your feed. Your terms.</title>
+  <link rel="stylesheet" href="popup.css">
+  <script src="../core/defaults.js" defer></script>
+  <script src="../core/matcher.js" defer></script>
+  <script src="../core/settings.js" defer></script>
+  <script src="popup.js" defer></script>
+</head>
+<body>
+  <header class="brand">
+    <img src="../../assets/icons/icon-48.png" width="42" height="42" alt="">
+    <div><h1>Spoilshade<span class="brand-dot">.</span></h1><p>Your feed. Your terms.</p></div>
+    <span class="platform">YOUTUBE</span>
+  </header>
+  <main>
+    <fieldset id="settings-controls" disabled>
+      <legend class="sr-only">Spoiler protection settings</legend>
+      <section class="protection" aria-labelledby="protection-state">
+        <div class="switch-row">
+          <div><p class="eyebrow"><span id="state-dot" class="state-dot" aria-hidden="true"></span> SPOILER SHIELD</p>
+            <h2 id="protection-state">Loading protection…</h2></div>
+          <label class="switch master-switch"><input id="enabled" type="checkbox" role="switch" aria-label="Enable spoiler protection"><span class="switch-track" aria-hidden="true"></span></label>
+        </div>
+        <p id="protection-description" class="protection-description">Your settings stay on this device.</p>
+      </section>
+      <section class="section presets-section" aria-labelledby="presets-heading">
+        <div class="switch-row">
+          <div><p class="eyebrow">STARTER PACK</p><h2 id="presets-heading">GTA VI spoilers</h2></div>
+          <label class="switch"><input id="presets-enabled" type="checkbox" role="switch" aria-label="Enable GTA VI starter pack"><span class="switch-track" aria-hidden="true"></span></label>
+        </div>
+        <p class="section-description">Six keyword variants. One less thing to worry about.</p>
+        <ul id="preset-keywords" class="preset-keywords" aria-label="Default keywords"></ul>
+        <div class="preset-footer"><span id="preset-state">Built-in keywords</span><button id="restore-defaults" class="text-button" type="button">Restore defaults</button></div>
+      </section>
+      <section class="section custom-section" aria-labelledby="custom-heading">
+        <div class="section-title"><div><p class="eyebrow">MAKE IT YOURS</p><h2 id="custom-heading">Your keywords</h2></div><span id="custom-count" class="count" aria-label="Custom keyword count">0</span></div>
+        <form id="keyword-form" novalidate>
+          <label for="keyword-input" class="sr-only">Add a custom keyword or phrase</label>
+          <div class="input-row"><input id="keyword-input" type="text" autocomplete="off" spellcheck="false" placeholder="A game, a character, a plot twist…" aria-describedby="keyword-help status"><button class="add-button" type="submit">Add<span aria-hidden="true"> +</span></button></div>
+          <p id="keyword-help" class="input-help">Titles checked on-device. No data sent. Enter to add.</p>
+        </form>
+        <ul id="custom-keywords" class="custom-keywords" aria-label="Your custom keywords"></ul>
+        <p id="empty-keywords" class="empty-state">Nothing extra yet. Keep your next surprise a surprise.</p>
+      </section>
+    </fieldset>
+    <p id="status" class="status" role="status" aria-live="polite" aria-atomic="true">Loading your settings…</p>
+  </main>
+  <footer><span class="local-indicator" aria-hidden="true"></span>On-device settings<span class="footer-separator" aria-hidden="true">/</span>No account needed</footer>
+</body>
+</html>

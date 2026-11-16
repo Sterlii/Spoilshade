@@ -1,0 +1,106 @@
+{
+  "version": "1.0.0",
+  "date": "2026-11-16",
+  "environment": {
+    "platform": "Linux x86_64",
+    "node": "v24.22.3",
+    "npm": "12.2.2",
+    "python": "3.14.7"
+  },
+  "runtime": {
+    "algorithm": "sha256",
+    "files": {
+      "assets/icons/icon-128.png": "b70ab08ba479b93dd0bd708cd926c5de20036cb9e3ee7783f638c726de4ddb89",
+      "assets/icons/icon-16.png": "63fd29256590a81a2336d5bd3486af35e1e5e6146ddbeb18916b4f443cdf27bb",
+      "assets/icons/icon-256.png": "b81a9b351367a043840a7f2b67d4d963af84d9bae6269879f02b0569da2dfb8c",
+      "assets/icons/icon-32.png": "2a0262a84441928b8b6adb6f50d93564ca2d8e0d5be9244f6b57b1bce64cae05",
+      "assets/icons/icon-48.png": "4be927df9e496edd39aebb430b437581d70f0aadea3afe7e5842edfd702cf8b1",
+      "assets/icons/icon-512.png": "79557c5383b4c1c6d88eecf07a05a1472b1311745b47dfb790033db5b204702a",
+      "assets/icons/icon-64.png": "28948f352f7a2f6cea22f2a2e2de3f3261d14b57df571ab5237356d0aab29608",
+      "assets/icons/icon-96.png": "03dae8e35529ba45d4838b65c5a1d2c50a2e729d9c26fd54f15b219034ff4e94",
+      "package.json": "6502fe5907f282d4199b10291c6a632b3f02e75ba44dc2f8aca067b6a2e49150",
+      "scripts/archive.py": "a09252509d3cb3e48fcb26b4f2fcc266b791e1127de3013e157cdba851595e98",
+      "scripts/build.mjs": "46ef2b50d63d6569ef3f83c3698466a7165ea3911a223904be026a5e60e105f4",
+      "src/core/defaults.js": "147d6d137761012743429f50edc94c9bf0588c79bce9d698966822066d9e07c0",
+      "src/core/matcher.js": "33b52e3b34fa6545d4e4bc4c56b5270e658a3ab053fb1da1dce3fbf60d8d93e3",
+      "src/core/settings.js": "8e133e37d441236aa2efa3f4b547300b524f23f92b4b1804c829b0f2085d1998",
+      "src/popup/popup.css": "4d765bf82e73b9cac07efb0845d79af70b68b4c648df348c163bf539e57a8b74",
+      "src/popup/popup.html": "3c9f14aae6dbf1857b45dbe1caea2eb5b4d8cd3dc7044be0209bb239660b6937",
+      "src/popup/popup.js": "e80d8536eca5b6df413f6e33ea4848d73175d9f9b7bc4057509be53db228be79",
+      "src/youtube/guard.css": "a34b905e1b3401396080f8e61d1aa1a7c0720ebd5bfc48a400833ebefd5c8b71",
+      "src/youtube/integration.js": "4369839a4c8262b54adf660c38c9340f495acfee80b3393caee1d5ab30aad54d",
+      "src/youtube/redaction.js": "ab16c1f1fc6bffb725828ed49cee4abe7eaa2abcd81d301b5962de2105792f8a"
+    },
+    "sha256": "f2f18f0d3fae2e55cd4baadc50f90aa3609a2d8980fc8aa6b18c253fdc898905"
+  },
+  "node": {
+    "passed": 43,
+    "failed": 0,
+    "includes": [
+      "private-artifact source archive exclusions",
+      "symlink source archive exclusions"
+    ]
+  },
+  "browsers": [
+    {
+      "name": "firefox",
+      "version": "160.0",
+      "passed": 13,
+      "cases": [
+        "document-start guards conceal matching content at parser-time before first paint",
+        "presets redact legacy and modern cards without blocking GTA V",
+        "independent reveal, keyboard control and no video navigation",
+        "right-hand title controls stay separate for inline and clamped titles at wide and narrow widths",
+        "page reconciliation recovers retained-node controls and independent reveal state",
+        "concealed titles removed from page tooltips/accessibility attributes",
+        "popup adds Jason with Enter and persisted local settings",
+        "dynamic cards and same-ID replacement retain only individual reveal state",
+        "popup duplicate prevention and persisted reload",
+        "removing Jason restores already-loaded cards",
+        "multi-word phrase, preset independence and restore defaults through popup",
+        "master toggle restores normal content and re-enables protection",
+        "bulk dynamic insertion and removal leave no orphan controls"
+      ]
+    },
+    {
+      "name": "chromium",
+      "version": "148.0.7778.96",
+      "passed": 13,
+      "cases": [
+        "document-start guards conceal matching content at parser-time before first paint",
+        "presets redact legacy and modern cards without blocking GTA V",
+        "independent reveal, keyboard control and no video navigation",
+        "right-hand title controls stay separate for inline and clamped titles at wide and narrow widths",
+        "page reconciliation recovers retained-node controls and independent reveal state",
+        "concealed titles removed from page tooltips/accessibility attributes",
+        "popup adds Jason with Enter and persisted local settings",
+        "dynamic cards and same-ID replacement retain only individual reveal state",
+        "popup duplicate prevention and persisted reload",
+        "removing Jason restores already-loaded cards",
+        "multi-word phrase, preset independence and restore defaults through popup",
+        "master toggle restores normal content and re-enables protection",
+        "bulk dynamic insertion and removal leave no orphan controls"
+      ]
+    }
+  ],
+  "nativeFirefoxPopup": {
+    "verified": true,
+    "version": "160.0",
+    "bounds": {
+      "height": 593,
+      "panelState": "open",
+      "viewType": "popup",
+      "width": 380
+    }
+  },
+  "firefoxLint": {
+    "exit": 0,
+    "warningsAsErrors": true
+  },
+  "releaseArchiveChecks": {
+    "passed": 3,
+    "failed": 0,
+    "scope": "Package/source contents, permissions and privacy exclusions; deterministic install-archive rebuilds."
+  },
+  "scope": "Installed extensions on clearly labeled local discovery fixtures plus an actual Firefox toolbar popup; not proof of all live YouTube layouts, full accessibility or universal flash-free behavior. Raw anonymous live observations and local browser receipts are not published."
+}

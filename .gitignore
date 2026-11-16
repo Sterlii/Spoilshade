@@ -1,0 +1,22 @@
+node_modules
+dist/
+release/
+.test-cache/
+.test-profiles/
+coverage/
+*.log
+# Raw local captures, browser receipts, and development evidence stay private.
+/Images/
+/docs/evidence/
+/docs/BROWSER-RESULTS.json
+/docs/FIREFOX-TOOLBAR-RESULT.json
+/docs/screenshots/*-live-youtube.png
+# Never add local credentials or private audit material by default.
+.env*
+.npmrc
+.git-credentials
+*.key
+*.pem
+*.p12
+*.pfx
+PRIVATE-*

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="560" viewBox="0 0 1400 560" role="img" aria-labelledby="title desc">
+  <title id="title">Spoilshade promotional marquee</title>
+  <desc id="desc">Promotional artwork, not a screenshot. Hide the spoilers. Keep the surprise. YouTube spoiler protection, your keywords, on your device.</desc>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#252d33" stroke-width="1"/></pattern>
+    <radialGradient id="halo"><stop stop-color="#30402a"/><stop offset="1" stop-color="#111318"/></radialGradient>
+  </defs>
+  <path fill="#111318" d="M0 0h1400v560H0z"/>
+  <path fill="url(#halo)" d="M760 0h640v560H760z"/>
+  <path fill="url(#grid)" opacity=".55" d="M760 0h640v560H760z"/>
+  <g fill="none" stroke="#586b46" opacity=".3">
+    <path d="m1090-78 293 105v210c0 166-145 293-293 370-148-77-293-204-293-370V27Z"/>
+    <path d="m1090-24 254 91v183c0 143-126 254-254 321-128-67-254-178-254-321V67Z"/>
+  </g>
+  <g transform="translate(60 48) scale(.105)">
+    <path d="M256 64 424 124V244C424 339 341 412 256 456 171 412 88 339 88 244V124Z" fill="#c5ed87"/>
+    <path d="M144 244Q256 135 368 244 256 353 144 244Z" fill="#111318"/>
+    <circle cx="256" cy="244" r="34" fill="#c5ed87"/>
+    <path d="m183 306 146-124" fill="none" stroke="#c5ed87" stroke-width="28" stroke-linecap="round"/>
+  </g>
+  <g font-family="DejaVu Sans, sans-serif">
+    <text x="121" y="88" fill="#f3f5f7" font-size="33" font-weight="700" letter-spacing="-1">Spoilshade<tspan fill="#c5ed87">.</tspan></text>
+    <text x="68" y="167" fill="#a4adbc" font-size="12" font-weight="700" letter-spacing="3">YOUR FEED. YOUR TERMS.</text>
+    <text x="62" y="267" fill="#f3f5f7" font-size="70" font-weight="700" letter-spacing="-3">Hide the spoilers.</text>
+    <text x="62" y="352" fill="#c5ed87" font-size="70" font-weight="700" letter-spacing="-3">Keep the surprise.</text>
+    <text x="68" y="402" fill="#b3bdcb" font-size="20">YouTube spoiler protection. Your keywords. Your device.</text>
+    <rect x="68" y="452" width="272" height="40" rx="20" fill="#212b1c" stroke="#405334"/>
+    <circle cx="88" cy="472" r="4" fill="#c5ed87"/>
+    <text x="101" y="477" fill="#c5ed87" font-size="13" font-weight="700">A little shade. A better feed.</text>
+  </g>
+  <g transform="translate(882 64) scale(.82)">
+    <path d="M256 64 424 124V244C424 339 341 412 256 456 171 412 88 339 88 244V124Z" fill="#c5ed87"/>
+    <path d="M144 244Q256 135 368 244 256 353 144 244Z" fill="#111318"/>
+    <circle cx="256" cy="244" r="34" fill="#c5ed87"/>
+    <path d="m183 306 146-124" fill="none" stroke="#c5ed87" stroke-width="28" stroke-linecap="round"/>
+  </g>
+</svg>

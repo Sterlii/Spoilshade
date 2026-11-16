@@ -1,0 +1,28 @@
+Hide the spoilers. Keep the surprise.
+
+Avoid unwanted spoilers while browsing YouTube. When a video's title matches one of your keywords, Spoilshade covers its title and thumbnail without removing the video from your feed.
+
+Start with built-in GTA 6 protection, or add your own words and phrases for games, movies, shows, characters, and more. Just type a keyword in the toolbar popup and press Enter. Changes apply to already-loaded videos without refreshing the page.
+
+Your feed, your choice
+
+- GTA 6 protection enabled by default, including common GTA 6 and GTA VI title variations.
+- Add and remove custom words and phrases directly in the popup.
+- Case-insensitive matching with word boundaries: Jason matches Jason's, but not Jasonville.
+- Reveal a title without revealing its thumbnail, or reveal the thumbnail while keeping the title hidden.
+- Re-hide revealed content, pause all protection, or turn off the GTA 6 preset while keeping custom keywords active.
+- Handles recognized desktop YouTube video cards in feeds, search results, recommendations, and supported Shorts previews.
+
+Private by design
+
+Filtering happens entirely in your browser. Your keywords and settings stay in local extension storage. Spoilshade does not transmit your keywords, inspected titles, or reveal choices. No accounts, tracking, analytics, external AI services, or remote processing.
+
+Know the limits
+
+Spoilshade matches video titles; it does not analyze images or understand story content. If a title contains none of your keywords, its thumbnail will not be filtered. Broad keywords can also hide unrelated videos.
+
+Protection is limited to recognized video cards on desktop www.youtube.com. The main watch-page title and video player, comments, captions, notifications, embeds, and mobile YouTube are not protected. YouTube layout changes can affect filtering, and complete coverage or zero spoiler flashes cannot be guaranteed.
+
+YouTube site access is used to inspect and modify video cards. Storage permission saves your preferences locally.
+
+Independent project, not affiliated with YouTube, Google, Rockstar Games, or Take-Two Interactive. Licensed under MIT.

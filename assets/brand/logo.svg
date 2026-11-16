@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Spoilshade shield-eye mark</title>
+  <desc id="desc">An original lime geometric shield with a shaded eye, on a charcoal rounded square.</desc>
+  <rect x="8" y="8" width="496" height="496" rx="112" fill="#111318"/>
+  <path d="M256 64 424 124V244C424 339 341 412 256 456 171 412 88 339 88 244V124Z" fill="#c5ed87"/>
+  <path d="M144 244Q256 135 368 244 256 353 144 244Z" fill="#111318"/>
+  <circle cx="256" cy="244" r="34" fill="#c5ed87"/>
+  <path d="m183 306 146-124" fill="none" stroke="#c5ed87" stroke-width="28" stroke-linecap="round"/>
+</svg>
